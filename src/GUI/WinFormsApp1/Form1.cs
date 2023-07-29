@@ -18,10 +18,6 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
         SqlConnection baglan = new SqlConnection("Data Source = (localdb)\\mssqllocaldb; Initial Catalog = eCommerce; Integrated Security = True  ");
 
         private void showInfo()
@@ -80,42 +76,6 @@ namespace WinFormsApp1
             listView3.Items.Clear();
             listView4.Items.Clear();
         }
-
-        /*private void button3_Click(object sender, EventArgs e)
-        {
-            baglan.Open();
-            SqlCommand komut = new SqlCommand("INSERT INTO customers (email, first_name, last_name, addresses_id) VALUES (@Email, @FirstName, @LastName, @AddressID)", baglan);
-
-            komut.Parameters.AddWithValue("@Email", textBox4.Text);
-            komut.Parameters.AddWithValue("@FirstName", textBox2.Text);
-            komut.Parameters.AddWithValue("@LastName", textBox3.Text);
-            komut.Parameters.AddWithValue("@AddressID", textBox5.Text);
-
-            komut.ExecuteNonQuery();
-            baglan.Close();
-            showInfo();
-                                                              
-        }*/
-
-       /* private void button4_Click(object sender, EventArgs e)
-        {
-            string sql = "DELETE FROM customers WHERE id = @ID";
-
-           
-            baglan.Open();
-
-            SqlCommand komut = new SqlCommand(sql, baglan);
-            komut.Parameters.AddWithValue("@ID", textBox1.Text);
-
-            komut.ExecuteNonQuery();
-
-            MessageBox.Show("Kayıt silindi.");
-
-            baglan.Close();
-
-            textBox1.Clear();
-            
-        }*/
         private void showProductDetails()
         {
             listView2.Items.Clear();
@@ -156,11 +116,6 @@ namespace WinFormsApp1
         private void button5_Click(object sender, EventArgs e)
         {
             showProductDetails();
-        }
-
-        private void listView2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void showProductDetails2()

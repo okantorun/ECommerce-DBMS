@@ -149,11 +149,7 @@ namespace WinFormsApp1
             showInfoAddress();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void button3_Click(object sender, EventArgs e)
         {
             deleteAddress();
@@ -399,10 +395,6 @@ namespace WinFormsApp1
             showInfoCustomers();
         }
 
-
-
-
-
         private void showInfoCustomers()
         {
             listView3.Items.Clear(); 
@@ -461,9 +453,5 @@ namespace WinFormsApp1
             updateCustomer();
         }
 
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -336,9 +336,5 @@ namespace WinFormsApp1
             showInfoOrderItems();
         }
 
-        private void listView5_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

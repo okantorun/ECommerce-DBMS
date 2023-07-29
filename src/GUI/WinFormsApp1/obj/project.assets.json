@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\okant\\Desktop\\GTU\\CSE-414\\src\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\okant\\Desktop\\GTU\\ECommerce-DBMS\\src\\GUI\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\okant\\Desktop\\GTU\\CSE-414\\src\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "C:\\Users\\okant\\Desktop\\GTU\\ECommerce-DBMS\\src\\GUI\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\okant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\okant\\Desktop\\GTU\\CSE-414\\src\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\Users\\okant\\Desktop\\GTU\\ECommerce-DBMS\\src\\GUI\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\okant\\AppData\\Roaming\\NuGet\\NuGet.Config",

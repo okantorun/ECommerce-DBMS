@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g6LNafABebJcwxMEO1bGAXXxgk/9AhyRvCL4nIKjikGCfbftTj+9q+ptQB9EUS2LP6hPSyy0tiUZ+EkIZBZkKA==",
+  "dgSpecHash": "uIkf49UMdsPIKcdCyS6ELBmI0LmK+Binhdf8BlrO7dQlcVyJDoDP9mVWONGn0uUd//o30SeXkbk5VqqCEjJIng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\okant\\Desktop\\GTU\\CSE-414\\src\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\okant\\Desktop\\GTU\\ECommerce-DBMS\\src\\GUI\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

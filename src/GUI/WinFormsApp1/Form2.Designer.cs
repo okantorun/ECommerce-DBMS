@@ -78,9 +78,10 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(136, 50);
+            this.button1.Location = new System.Drawing.Point(155, 67);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 43);
+            this.button1.Size = new System.Drawing.Size(141, 57);
             this.button1.TabIndex = 0;
             this.button1.Text = "Add Address";
             this.button1.UseVisualStyleBackColor = true;
@@ -88,9 +89,10 @@ namespace WinFormsApp1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(7, 50);
+            this.button2.Location = new System.Drawing.Point(8, 67);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 43);
+            this.button2.Size = new System.Drawing.Size(141, 57);
             this.button2.TabIndex = 2;
             this.button2.Text = "List Addresses";
             this.button2.UseVisualStyleBackColor = true;
@@ -105,9 +107,10 @@ namespace WinFormsApp1
             this.columnHeader4,
             this.columnHeader5});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(2, 99);
+            this.listView1.Location = new System.Drawing.Point(2, 132);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(444, 165);
+            this.listView1.Size = new System.Drawing.Size(507, 219);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -138,9 +141,10 @@ namespace WinFormsApp1
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(265, 50);
+            this.button3.Location = new System.Drawing.Point(303, 67);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(123, 43);
+            this.button3.Size = new System.Drawing.Size(141, 57);
             this.button3.TabIndex = 4;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = true;
@@ -148,25 +152,27 @@ namespace WinFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(288, 22);
+            this.textBox1.Location = new System.Drawing.Point(329, 29);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.Size = new System.Drawing.Size(114, 27);
             this.textBox1.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 25);
+            this.label1.Location = new System.Drawing.Point(303, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 15);
+            this.label1.Size = new System.Drawing.Size(25, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Id:";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(394, 50);
+            this.button4.Location = new System.Drawing.Point(450, 67);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 43);
+            this.button4.Size = new System.Drawing.Size(141, 57);
             this.button4.TabIndex = 7;
             this.button4.Text = "Update";
             this.button4.UseVisualStyleBackColor = true;
@@ -174,41 +180,44 @@ namespace WinFormsApp1
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(436, 22);
+            this.textBox2.Location = new System.Drawing.Point(498, 29);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
+            this.textBox2.Size = new System.Drawing.Size(114, 27);
             this.textBox2.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(399, 25);
+            this.label2.Location = new System.Drawing.Point(456, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 15);
+            this.label2.Size = new System.Drawing.Size(37, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "City:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1038, 25);
+            this.label3.Location = new System.Drawing.Point(1186, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 15);
+            this.label3.Size = new System.Drawing.Size(44, 20);
             this.label3.TabIndex = 18;
             this.label3.Text = "Desc:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(930, 22);
+            this.textBox3.Location = new System.Drawing.Point(1063, 29);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
+            this.textBox3.Size = new System.Drawing.Size(114, 27);
             this.textBox3.TabIndex = 17;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1033, 50);
+            this.button5.Location = new System.Drawing.Point(1181, 67);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(123, 43);
+            this.button5.Size = new System.Drawing.Size(141, 57);
             this.button5.TabIndex = 16;
             this.button5.Text = "Update";
             this.button5.UseVisualStyleBackColor = true;
@@ -217,24 +226,26 @@ namespace WinFormsApp1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(904, 25);
+            this.label4.Location = new System.Drawing.Point(1033, 33);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 15);
+            this.label4.Size = new System.Drawing.Size(25, 20);
             this.label4.TabIndex = 15;
             this.label4.Text = "Id:";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(1078, 21);
+            this.textBox4.Location = new System.Drawing.Point(1232, 28);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
+            this.textBox4.Size = new System.Drawing.Size(114, 27);
             this.textBox4.TabIndex = 14;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(904, 50);
+            this.button6.Location = new System.Drawing.Point(1033, 67);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(123, 43);
+            this.button6.Size = new System.Drawing.Size(141, 57);
             this.button6.TabIndex = 13;
             this.button6.Text = "Delete";
             this.button6.UseVisualStyleBackColor = true;
@@ -242,9 +253,10 @@ namespace WinFormsApp1
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(646, 50);
+            this.button7.Location = new System.Drawing.Point(738, 67);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(123, 43);
+            this.button7.Size = new System.Drawing.Size(141, 57);
             this.button7.TabIndex = 11;
             this.button7.Text = "List Brands";
             this.button7.UseVisualStyleBackColor = true;
@@ -252,9 +264,10 @@ namespace WinFormsApp1
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(775, 50);
+            this.button8.Location = new System.Drawing.Point(886, 67);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(123, 43);
+            this.button8.Size = new System.Drawing.Size(141, 57);
             this.button8.TabIndex = 10;
             this.button8.Text = "Add Brand";
             this.button8.UseVisualStyleBackColor = true;
@@ -267,9 +280,10 @@ namespace WinFormsApp1
             this.columnHeader7,
             this.columnHeader8});
             this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(646, 99);
+            this.listView2.Location = new System.Drawing.Point(738, 132);
+            this.listView2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(510, 165);
+            this.listView2.Size = new System.Drawing.Size(582, 219);
             this.listView2.TabIndex = 19;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -295,9 +309,10 @@ namespace WinFormsApp1
             this.columnHeader12,
             this.columnHeader13});
             this.listView3.HideSelection = false;
-            this.listView3.Location = new System.Drawing.Point(12, 371);
+            this.listView3.Location = new System.Drawing.Point(14, 495);
+            this.listView3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(510, 165);
+            this.listView3.Size = new System.Drawing.Size(582, 219);
             this.listView3.TabIndex = 28;
             this.listView3.UseCompatibleStateImageBehavior = false;
             this.listView3.View = System.Windows.Forms.View.Details;
@@ -325,24 +340,26 @@ namespace WinFormsApp1
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(404, 297);
+            this.label5.Location = new System.Drawing.Point(462, 396);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 15);
+            this.label5.Size = new System.Drawing.Size(52, 20);
             this.label5.TabIndex = 27;
             this.label5.Text = "Name:";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(296, 294);
+            this.textBox5.Location = new System.Drawing.Point(338, 392);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 23);
+            this.textBox5.Size = new System.Drawing.Size(114, 27);
             this.textBox5.TabIndex = 26;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(399, 322);
+            this.button9.Location = new System.Drawing.Point(456, 429);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(123, 43);
+            this.button9.Size = new System.Drawing.Size(141, 57);
             this.button9.TabIndex = 25;
             this.button9.Text = "Update";
             this.button9.UseVisualStyleBackColor = true;
@@ -351,24 +368,26 @@ namespace WinFormsApp1
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(270, 297);
+            this.label6.Location = new System.Drawing.Point(309, 396);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(20, 15);
+            this.label6.Size = new System.Drawing.Size(25, 20);
             this.label6.TabIndex = 24;
             this.label6.Text = "Id:";
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(444, 293);
+            this.textBox6.Location = new System.Drawing.Point(507, 391);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 23);
+            this.textBox6.Size = new System.Drawing.Size(114, 27);
             this.textBox6.TabIndex = 23;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(270, 322);
+            this.button10.Location = new System.Drawing.Point(309, 429);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(123, 43);
+            this.button10.Size = new System.Drawing.Size(141, 57);
             this.button10.TabIndex = 22;
             this.button10.Text = "Delete";
             this.button10.UseVisualStyleBackColor = true;
@@ -376,9 +395,10 @@ namespace WinFormsApp1
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(12, 322);
+            this.button11.Location = new System.Drawing.Point(14, 429);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(123, 43);
+            this.button11.Size = new System.Drawing.Size(141, 57);
             this.button11.TabIndex = 21;
             this.button11.Text = "List Customers";
             this.button11.UseVisualStyleBackColor = true;
@@ -386,9 +406,10 @@ namespace WinFormsApp1
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(141, 322);
+            this.button12.Location = new System.Drawing.Point(161, 429);
+            this.button12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(123, 43);
+            this.button12.Size = new System.Drawing.Size(141, 57);
             this.button12.TabIndex = 20;
             this.button12.Text = "Add Customer";
             this.button12.UseVisualStyleBackColor = true;
@@ -396,27 +417,27 @@ namespace WinFormsApp1
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(159, 294);
+            this.textBox7.Location = new System.Drawing.Point(182, 392);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 23);
+            this.textBox7.Size = new System.Drawing.Size(114, 27);
             this.textBox7.TabIndex = 30;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(91, 297);
+            this.label7.Location = new System.Drawing.Point(104, 396);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 15);
+            this.label7.Size = new System.Drawing.Size(78, 20);
             this.label7.TabIndex = 29;
             this.label7.Text = "AddressId:";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1251, 614);
+            this.ClientSize = new System.Drawing.Size(1430, 819);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.listView3);
@@ -446,6 +467,7 @@ namespace WinFormsApp1
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form2";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();

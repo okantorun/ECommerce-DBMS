@@ -296,7 +296,6 @@ namespace WinFormsApp1
             this.listView5.TabIndex = 13;
             this.listView5.UseCompatibleStateImageBehavior = false;
             this.listView5.View = System.Windows.Forms.View.Details;
-            this.listView5.SelectedIndexChanged += new System.EventHandler(this.listView5_SelectedIndexChanged);
             // 
             // columnHeader12
             // 
